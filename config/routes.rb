@@ -3,5 +3,14 @@ Rails.application.routes.draw do
     get :subjects
   end
 
-  root "visitors#index"
+  resources :teachers do
+    get :subjects
+  end
+
+  resources :visitors
+
+  get 'report/subjects', to: 'reports#subjects'
+  get :visitors, to: 'visitors#index'
+
+  root 'visitors#index'
 end
