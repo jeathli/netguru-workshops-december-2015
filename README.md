@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/jeathli/netguru-workshops-december-2015.svg?branch=master)](https://travis-ci.org/jeathli/netguru-workshops-december-2015)
 
+Working app: https://task-netguru.herokuapp.com
+
+
 RoR Workshops
 ================
 
